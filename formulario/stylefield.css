@@ -1,0 +1,41 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    background-color: aliceblue;
+    width: 80%;
+    margin: auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+fieldset{
+    background-color: rgb(202, 252, 248);
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
+.forms{
+    margin-bottom: 10px;
+}
+
+label{
+    display: inline-block;
+    width: 15%
+}
+
+input {
+    margin-right: 5%;
+}
+
+.button-container button {
+    margin-right: 20px;
+}
+
+.button-container{
+    margin-bottom: 10px;
+}
